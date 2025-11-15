@@ -48,7 +48,7 @@ MediaLog addresses these gaps while demonstrating advanced technical skills thro
 | `Tag` | Flexible item labels | `id`, `name` |
 | `item_tags` | Join table (many-to-many) | `item_id`, `tag_id` |
 
-**Core Features**
+**Key Features**
 
 - CRUD for `Item` (Create, Read, Update, Delete).
 - Validations: required `title`, `category_id`, `rating` between 1–5.
@@ -70,9 +70,47 @@ MediaLog addresses these gaps while demonstrating advanced technical skills thro
 **Key Features**
 
 - `Interactive Collection Management`: Users can create, edit, delete, and organize collection items by category and tags.
-- `Drag & Drop Reordering`: Built with React Beautiful DND, allowing users to visually rearrange their collection cards.
+- `Drag & Drop Reordering`: Built with dnd-kit, allowing users to visually rearrange their collection cards.
 - `Export to Excel`: Backend functionality built with Pandas generates downloadable `.xlsx` files for data backup or sharing.
 - `Personal Reviews & Ratings`: Optional section for users to add personal impressions or ratings for each item.
 - `Modern UI & Animation`: Minimalist, responsive layout with optional motion effects powered by Framer Motion for a refined user experience.
 
 ---
+
+## 4. Experience / Qualifications
+
+**Developer:** _Courtney Macgregor_
+
+- 13 years in shipping and logistics; currently transitioning to software engineering.
+- Completed coursework covering Flask, React, and SQLAlchemy, with practical experience deploying projects using Render.
+
+---
+
+## 6. Costs & Benefits
+
+| Type         | Details                                                                                                                   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| **Costs**    | Free open-source tools; hosting via Render (no additional expenses).                                                      |
+| **Benefits** | Showcases full-stack proficiency with enhanced functionality that reflects real-world, professional application behavior. |
+
+---
+
+## 8. How **MediaLog** Meets Phase 5 Project Requirements
+
+| Requirement                           | Implementation                                                                  |
+| ------------------------------------- | ------------------------------------------------------------------------------- |
+| **Flask + SQLAlchemy backend**        | Flask handles API routes and database logic using SQLAlchemy ORM.               |
+| **4+ Models**                         | `User`, `Item`, `Category`, `Tag`, and `item_tags` join table.                  |
+| **Many-to-Many Relationship**         | Implemented between `Item` and `Tag` through `item_tags`.                       |
+| **Full CRUD on one model**            | Full create, read, update, delete operations on `Item`.                         |
+| **Validations & Error Handling**      | Title, category, and rating validations; backend returns clear error messages.  |
+| **5+ Client-side Routes**             | Home, Items, Item Detail, Add/Edit Item, Profile.                               |
+| **useContext or Redux**               | useContext manages global state for user and collection data.                   |
+| **Something New (beyond curriculum)** | 1) Drag-and-drop interface using dnd-kit. 2) Excel export feature using Pandas. |
+| **Professional Design**               | Clean UI, responsive layout, subtle animations.                                 |
+
+---
+
+## 7. Conclusion
+
+MediaLog is a feature-rich yet manageable project that fulfills all Phase 5 criteria while showcasing creativity and technical precision. It combines practical functionality (CRUD, validations, relationships) with modern UX touches like drag-and-drop and Excel export, resulting in a polished, portfolio-ready capstone.
