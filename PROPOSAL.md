@@ -77,6 +77,22 @@ MediaLog addresses these gaps while demonstrating advanced technical skills thro
 
 ---
 
+### Libraries & Tools
+
+| Purpose                  | Library / Tool                     | Description                                                                                          |
+| ------------------------ | ---------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Frontend Framework**   | **React**                          | Core UI library for building the client interface.                                                   |
+| **Routing**              | **React Router**                   | Manages navigation between pages (Home, Items, Add, Profile).                                        |
+| **State Management**     | **useContext (React Hook)**        | Handles global state for current user and collection data.                                           |
+| **Drag & Drop**          | **dnd-kit**                        | Modern React-first drag-and-drop toolkit for intuitive item reordering with accessible interactions. |
+| **Animation (optional)** | **Framer Motion**                  | Adds subtle hover, fade, and drag transitions for a polished, dynamic UI.                            |
+| **Backend Framework**    | **Flask**                          | Python web framework for API routes and server logic.                                                |
+| **ORM / Database**       | **SQLAlchemy**                     | Manages relational data models and database connections.                                             |
+| **Data Export**          | **Pandas**                         | Generates downloadable Excel (.xlsx) files of the user’s collection.                                 |
+| **Styling**              | **Tailwind CSS** or **Custom CSS** | Ensures a minimalist, professional, and fully responsive design.                                     |
+
+---
+
 ## 4. Experience / Qualifications
 
 **Developer:** _Courtney Macgregor_
