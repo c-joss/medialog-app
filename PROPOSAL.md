@@ -127,6 +127,19 @@ MediaLog addresses these gaps while demonstrating advanced technical skills thro
 
 ---
 
-## 7. Conclusion
+## 7. Resources
+
+- **ERD (PDF):**  
+  [medialog.drawio (1).pdf](<./medialog.drawio%20(1).pdf>)
+
+- **Wireframes (PDF):**  
+  [Medialog Wireframes.pdf](./Medialog%20Wireframes.pdf)
+
+- **Normalization Worksheet (Excel):**  
+  [Medialog Normalisation.xlsx](./Medialog%20Normalisation.xlsx)
+
+  ***
+
+## 8. Conclusion
 
 MediaLog is a feature-rich yet manageable project that fulfills all Phase 5 criteria while showcasing creativity and technical precision. It combines practical functionality (CRUD, validations, relationships) with modern UX touches like drag-and-drop and Excel export, resulting in a polished, portfolio-ready capstone.
