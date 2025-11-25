@@ -127,7 +127,7 @@ MediaLog addresses these gaps while demonstrating advanced technical skills thro
 
 ---
 
-## 7. Resources
+## 7. Documentation
 
 - **ERD (PDF):**  
   [medialog.drawio (1).pdf](<./medialog.drawio%20(1).pdf>)
